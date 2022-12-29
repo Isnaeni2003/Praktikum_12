@@ -8,8 +8,11 @@ print(f"Text = {txt}")
 print(f"Type class = {type(txt)}")
 print(f"Menghitung jumlah karakter = {len(txt)}")
 
+z = txt[-1]
+print("Mengambil karakter terakhir =",z)
+
 a = txt[2:6]
-print("Menampilkan karakter index ke-2 sampai ke-6 =", a)
+print("Menampilkan karakter index ke-2 sampai ke-4 =", a)
 
 b = txt.replace(" ", "")
 print("Menghilangkan spasi pada teks =",b)
